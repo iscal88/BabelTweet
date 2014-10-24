@@ -1,0 +1,113 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	background: #f9f9f9;
+}
+
+header {
+	padding: 0px;
+	background: #FF9E08;
+	margin: 0;
+	width: 100%;
+	font-size: 18px;
+	font-weight: lighter;
+	color: white;
+	z-index: 100;
+}
+
+header p {
+	padding: 12px;
+	margin: 0;
+}
+
+.content {
+	width: 100%;
+	height: 75%;
+	position: absolute;
+	top: 50px;
+	margin: 0;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #333;
+	padding: 12px;
+	margin: 0px;
+	height: 50px;
+	z-index: 100;
+}
+
+footer #text_tweet {
+	width: 70%;
+	font-size: 20px;
+	padding: 10px;
+}
+
+footer button {
+	width: 60px;
+	height: 50px;
+	margin: 13px 10px;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+	background-image: url('send.png');
+	background-size: 75%;
+	background-color: white;
+	background-position: 50%;
+}
+
+#lista_tweets {
+	padding: 0;
+	margin: 10px;
+	list-style: none;
+}
+
+#lista_tweets span.nick {
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+}
+
+#lista_tweets span.name {
+	font-size: 18px;
+	font-weight: lighter;
+	color: #AAA;
+	margin: auto 15px;
+}
+
+#lista_tweets span.date {
+	font-size: 18px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #BBB;
+	float: right;
+}
+
+#lista_tweets img {
+	background: #333;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0px 30px 0px 5px;
+	border-radius: 50%;
+}
+
+#lista_tweets li {
+	margin: 10px;
+	margin-top: 20px;
+	font-family: Helvetica Neue;
+	font-weight: lighter;
+	min-height: 70px;
+}
+
+#lista_tweets p {
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+}

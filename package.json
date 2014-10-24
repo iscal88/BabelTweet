@@ -1,0 +1,15 @@
+{
+  "name": "passport-twitter-examples-signin",
+  "version": "0.0.0",
+  "dependencies": {
+    "express.io": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "method-override": "*",
+    "express-session":"*",
+    "passport": ">= 0.0.0",
+    "passport-twitter": ">= 0.0.0",
+    "node-tweet-stream": "*",
+    "twit" : "*"
+  }
+}
